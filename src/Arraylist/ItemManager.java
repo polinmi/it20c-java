@@ -19,4 +19,14 @@ public class ItemManager {
     public ItemManager() {
         items = new ArrayList<>();
     }
+     //To display all the items in list
+    public void displayItems() {
+        System.out.println("Items in the list: " + items);
+    }
+    //To add new item
+    public void addItems(String item) {
+        items.add(item);
+        System.out.println("You Inserted: " + items);
+    }
+    
 }

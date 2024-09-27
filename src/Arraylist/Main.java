@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
        
         Scanner sc = new Scanner(System.in);
-        //Creating object of the class to access all the methods on the Item Manager
+        //Object of the class to access all the methods on the Item Manager class
         ItemManager list = new ItemManager();
     }
 }
