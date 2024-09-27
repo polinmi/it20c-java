@@ -18,5 +18,18 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         //Object of the class to access all the methods on the Item Manager class
         ItemManager list = new ItemManager();
+        
+        //Displays the list
+        list.displayItems();
+    
+        //To read and store the input in the variable named item
+        System.out.println("Enter an item you want to add: ");
+        String item = sc.nextLine();
+        //Displays the new Item
+        list.addItems(item);
+        System.out.println("~~~~~~~~");
+        
+       
+        
     }
 }
