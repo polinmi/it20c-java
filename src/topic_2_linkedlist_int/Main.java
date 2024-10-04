@@ -27,7 +27,26 @@ public class Main {
 
             int choice = sc.nextInt();
 
-         
+          switch(choice) {
+                case 1:
+                      // Adding elements to the list
+                        System.out.println("Enter 5 Elements that you want to add: ");
+                        int item1 = sc.nextInt();
+                        int item2 = sc.nextInt();
+                        int item3 = sc.nextInt();
+                        int item4 = sc.nextInt();
+                        int item5 = sc.nextInt();
+
+                        list.add(item1);
+                        list.add(item2);
+                        list.add(item3);
+                        list.add(item4);
+                        list.add(item5);
+
+                        System.out.println("Current Linked List:");
+                        list.printList();
+                        break;
         }
     }
+}
 }
