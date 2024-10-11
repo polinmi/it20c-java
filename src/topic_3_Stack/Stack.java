@@ -41,6 +41,14 @@ public class Stack {
         stackArray[++top] = value;
     }
     
+    public int peek() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty. Cannot peek.");
+            return -1; 
+        }
+        return stackArray[top];
+    }
+    
     
     }
 
