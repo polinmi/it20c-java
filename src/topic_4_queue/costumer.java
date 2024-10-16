@@ -11,5 +11,14 @@ package topic_4_queue;
  * @author ADMIN
  */
 public class costumer {
-    
+     private String name;
+
+    public customer(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
+
