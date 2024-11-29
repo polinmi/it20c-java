@@ -27,7 +27,16 @@ public class SelectionSort {
         System.out.println();
     }
 
-  
+    public static void main(String[] args) {
+        int[] arr = {64, 25, 12, 22, 11};
+        System.out.println("Original array:");
+        printArray(arr);
+
+        selectionSort(arr);
+
+        System.out.println("Sorted array:");
+        printArray(arr);
+    }
 
    
 }
