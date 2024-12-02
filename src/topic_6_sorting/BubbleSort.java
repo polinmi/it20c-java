@@ -1,6 +1,6 @@
 
 package topic_6_sorting;
-
+import java.util.Scanner;
 
 public class BubbleSort {
       public static void bubbleSort(int[] arr) {
@@ -26,12 +26,12 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = {64, 34, 25, 12, 22, 11, 90};
-        System.out.println("Original array:");
+        System.out.println("Original arrays:");
         printArray(arr);
 
         bubbleSort(arr);
 
-        System.out.println("Sorted array:");
+        System.out.println("Sorted arrays:");
         printArray(arr);
     }
 }
