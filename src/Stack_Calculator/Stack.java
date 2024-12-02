@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package topic_3_stack_calculator;
+package Stack_Calculator;
 
 public class Stack {
 
